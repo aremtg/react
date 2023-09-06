@@ -4,7 +4,7 @@ const newMenssage ={
     titlke : 'algo mas'
 };
 
-export const FirstApp = ({title, subTitle})=>{
+export const FirstApp = ({title, subTitle, name})=>{
 // if(!title){
 //     throw new Error('EL title no existe');
 //    }
@@ -13,6 +13,7 @@ export const FirstApp = ({title, subTitle})=>{
             <h1>{title}</h1>
             {/* <code>{JSON.stringify(newMenssage)}</code> */}
             <p>{subTitle}</p>
+            <p>{name}</p>
         </>
     );
 }
@@ -20,6 +21,11 @@ export const FirstApp = ({title, subTitle})=>{
 FirstApp.propTypes= {
     title: PropTypes.string.isRequired,
     subTitle: PropTypes.string.isRequired,
+}
+FirstApp.defaultProps={
+    title: '¿Quieres ser parte de la familia Obal?',
+    subTitle: 'no hay subtitulo',
+    name: 'tatiana guzman',
 }
 // export const FirstApp = ()=>{
 //     return(
@@ -44,3 +50,4 @@ FirstApp.propTypes= {
 //         </>
 //     );
 // }
+// ---------------------------------

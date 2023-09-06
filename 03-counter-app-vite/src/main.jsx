@@ -11,6 +11,6 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp title='Bienvenido a Obal' subTitle='Arem ya eres parte de la familia'/>
+        <FirstApp title='Bienvenido a Obal' />
     </React.StrictMode> 
 );
