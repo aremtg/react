@@ -5,3 +5,14 @@ html, body{
     font-size: 1.3rem;
     padding: 70px;
 }
+
+button{
+    background-color: rgb(40, 158, 204);
+    border-radius: 4px;
+    padding: .5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: .8rem;
+    border: none;
+    margin-right: 6px;
+}

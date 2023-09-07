@@ -29,6 +29,6 @@ import { Counter2 } from './Counter2';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <Counter2 value={777}/>
+        <Counter2 value={5}/>
     </React.StrictMode>
 );

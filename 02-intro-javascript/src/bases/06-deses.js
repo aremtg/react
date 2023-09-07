@@ -12,7 +12,7 @@ const persona = {
 // console.log(edad2);
 // console.log(clave);
 
-const useContext = ({clave, edad})=>{
+const usState = ({clave, edad})=>{
     // console.log(clave, ciudad);
     return {
         nombreClave: clave,
@@ -23,7 +23,7 @@ const useContext = ({clave, edad})=>{
         }
     }
 };
-// const avenger = useContext(persona);
-const {nombreClave, anios, latlng:{lat, lng}} = useContext(persona);
+// const avenger = usContext(persona);
+const {nombreClave, anios, latlng:{lat, lng}} = usState(persona);
 console.log(nombreClave, anios);
 console.log(lat, lng);
