@@ -25,7 +25,7 @@ FirstApp.propTypes= {
 FirstApp.defaultProps={
     title: '¿Quieres ser parte de la familia Obal?',
     subTitle: 'no hay subtitulo',
-    name: 'tatiana guzman',
+    name: 'abmrasjd',
 }
 // export const FirstApp = ()=>{
 //     return(
