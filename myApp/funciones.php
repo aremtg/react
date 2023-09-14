@@ -18,4 +18,18 @@ function sumar($n1, $n2){
 }
 
 sumar(3, 3);
+//funciones preestablecidas
+var_dump($meses);
+print_r($meses);
+//
+$numero = 15.678;
+round($numero);
+//numero al azar entre dos numeros
+$nu_azar = rand(1, 13);
+//redondear hacia arriba
+$nu_hacia_arriba = ceil($numero);
+echo $nu_hacia_arriba;
+//die
+var_dump($numero);
+die();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 ?>
