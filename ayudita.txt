@@ -1,0 +1,4 @@
+SELECT * from usuarios WHERE nombre LIKE 'j%';
+// para buscar un valor que inicie co una letra
+SELECT * from usuarios WHERE nombre LIKE '%j';
+// para buscar un valor que termine co una letra j

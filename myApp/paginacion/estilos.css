@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+.contenedor{
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.contenedor h1{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+.contenedor .articulos{
+    margin-bottom: 20px ;
+}
+.articulos ul{
+    list-style: none;
+}
+.articulos ul li{
+    border-bottom: 2px solid gray;
+    padding: 5px 20px ;
+}
+
+.paginacion ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.paginacion ul .active a{
+    background-color: blueviolet;
+}
+.paginacion ul .disabled{
+    background-color: rgb(211, 211, 211);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    cursor: not-allowed;
+}
+.paginacion ul li a{
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color:rgb(49, 49, 49) ;
+}
+.paginacion ul li a:hover{
+    background-color: rgba(137, 43, 226, 0.756);
+}
