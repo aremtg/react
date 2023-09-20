@@ -10,6 +10,7 @@ body{
 }
 .contenedor{
     width: 70%;
+    height: 400px;
     max-width: 1000px;
     margin: auto;
     background-color: white;
@@ -63,8 +64,16 @@ body{
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color:rgb(49, 49, 49) ;
+    background-color:rgb(0, 255, 174) ;
 }
 .paginacion ul li a:hover{
-    background-color: rgba(137, 43, 226, 0.756);
+    background-color: rgba(0, 0, 0, 0.756);
+}
+.paginacion ul li .habil{
+    background-color: rgb(47, 255, 68);
+    border-radius:100%;
+    font-size: 25px;
+}
+.paginacion ul li .habil:hover{
+    background-color: rgb(181, 250, 135) ;
 }
