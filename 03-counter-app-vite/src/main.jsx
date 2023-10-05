@@ -5,6 +5,7 @@ import { FirstApp } from './FirstApp';
 import './index.css';
 import { CounterApp } from './CounterApp';
 import { Counter2 } from './Counter2';
+import { CounterNav, Btncontador } from './navbar';
 // ReactDOM.createRoot(document.getElementById('root')).render(
 // <React.StrictMode>
 //     <App/>
@@ -29,6 +30,8 @@ import { Counter2 } from './Counter2';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
+        <CounterNav />
         <Counter2 value={5}/>
+        <Btncontador value={0} />
     </React.StrictMode>
 );

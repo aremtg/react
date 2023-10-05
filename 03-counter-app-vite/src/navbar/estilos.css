@@ -1,0 +1,45 @@
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(26, 55, 100);
+    border-radius: 50px;
+    padding: 3px 10px;
+}
+.logo{
+    font-weight: 800;
+}
+ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+}
+li{
+    font-size: 16px;
+    list-style: none;
+    color: white;
+}
+.salir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.salir a{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 18px;
+    padding: 4px 8px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    
+    transition: all .5s;
+}
+.salir a:hover{
+    background-color: white;
+    color: black;
+    transform: translateX(5px);
+    transition: all .5s;
+}
