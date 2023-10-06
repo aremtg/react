@@ -21,7 +21,7 @@ describe('prueba en 09-promesas', () => {
             });
     });
     test('getHeroeByIdAsync debe ontener un error si heroe no existe', (done) => {
-        const id = 27;
+        const id = 23;
         getHeroeByIdAsync(id)
             .catch(error => {
                 expect(error).toBe(`No se pudo encontrar el héroe ${id}`)
